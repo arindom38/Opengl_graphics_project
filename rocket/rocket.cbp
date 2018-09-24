@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="rocket" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/rocket" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="G:/CodeBlocks/MinGW/bin" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+				<Linker>
+					<Add library="..\..\..\..\..\CodeBlocks\MinGW\lib\glut32.lib" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/rocket" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="G:/CodeBlocks/MinGW/bin" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add directory="G:/CodeBlocks/MinGW/include" />
+		</Compiler>
+		<Linker>
+			<Add library="glut32" />
+			<Add library="opengl32" />
+			<Add library="glu32" />
+			<Add library="winmm" />
+			<Add library="gdi32" />
+			<Add directory="G:/CodeBlocks/MinGW/lib" />
+		</Linker>
+		<Unit filename="BLINKING_STARS.h" />
+		<Unit filename="CIRCLE.h" />
+		<Unit filename="MOON.h" />
+		<Unit filename="PRINTTEXT.h" />
+		<Unit filename="ROCKET.h" />
+		<Unit filename="ROCKET_FUMEIN.h" />
+		<Unit filename="ROCKET_FUMEOUT.h" />
+		<Unit filename="SEMICIRCLE.h" />
+		<Unit filename="STARS.h" />
+		<Unit filename="blinking_stars.cpp" />
+		<Unit filename="circle.cpp" />
+		<Unit filename="main.cpp" />
+		<Unit filename="moon.cpp" />
+		<Unit filename="printtext.cpp" />
+		<Unit filename="rocket.cpp" />
+		<Unit filename="rocket_fumein.cpp" />
+		<Unit filename="rocket_fumeout.cpp" />
+		<Unit filename="semicircle.cpp" />
+		<Unit filename="stars.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

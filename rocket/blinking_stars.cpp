@@ -1,0 +1,62 @@
+#include<windows.h>
+#include <GL/glut.h>
+void blinking_stars()
+{
+	int l;
+	glColor3f(1.0,1.0,1.0);
+	glPointSize(0.40);
+	glBegin(GL_POINTS);
+	glVertex2i(50,20);
+	glVertex2i(70,100);
+	glVertex2i(80,10);
+	glVertex2i(65,150);
+	glVertex2i(67,80);
+	glVertex2i(105,33);
+	glVertex2i(450,300);
+	glVertex2i(380,110);
+	glVertex2i(175,63);
+	glVertex2i(113,125);
+	glVertex2i(70,10);
+	glVertex2i(160,330);
+	glVertex2i(490,430);
+	glVertex2i(82,65);
+	glVertex2i(160,440);
+	glVertex2i(440,490);
+	glVertex2i(62,90);
+	glVertex2i(450,322);
+	glVertex2i(420,366);
+	glVertex2i(455,400);
+	glVertex2i(60,20);
+	glVertex2i(111,120);
+	glVertex2i(451,200);
+	glVertex2i(280,30);
+	glVertex2i(220,20);
+	glVertex2i(132,378);
+	glVertex2i(173,340);
+	glVertex2i(325,420);
+	glVertex2i(180,360);
+	glVertex2i(383,120);
+	glVertex2i(200,22);
+	glVertex2i(342,11);
+	glVertex2i(330,332);
+	glVertex2i(283,40);
+	glVertex2i(210,418);
+	glVertex2i(256,12);
+	glVertex2i(288,232);
+	glVertex2i(247,36);
+	glVertex2i(229,342);
+	glVertex2i(257,47);
+	glVertex2i(290,63);
+	glVertex2i(232,72);
+	glVertex2i(243,143);
+	glVertex2i(100,200);
+	glVertex2i(90,250);
+	glVertex2i(80,225);
+	glVertex2i(50,333);
+	glVertex2i(60,350);
+	glVertex2i(243,143);
+	glVertex2i(243,143);
+	glEnd();
+	for(l=0;l<=1000;l++)  //blinking the stars
+		;
+}
